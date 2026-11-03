@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-charcoal: #171513;
+    --color-espresso: #4A2B1B;
+    --color-gold: #C6A15B;
+    --color-champagne: #E4D0A0;
+    --color-ivory: #F6F0E5;
+    --color-parchment: #EDE1CD;
+    --color-earth: #8A6747;
+    --color-olive: #69734D;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #171513;
+    color: #F6F0E5;
+    overflow-x: hidden;
+  }
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-calligraphy {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-olio {
+  font-family: 'Oleo Script', 'Oleo Script Swash Caps', 'Alex Brush', cursive;
+}
+
+.font-utsiki {
+  font-family: 'Water Brush', 'Caveat Brush', cursive;
+}
+
+.font-kwajola {
+  font-family: 'Alex Brush', 'Allura', 'Great Vibes', cursive;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom subtle parchment texture and gold accents */
+.bg-parchment-pattern {
+  background-color: #F6F0E5;
+  background-image: 
+    radial-gradient(#EDE1CD 15%, transparent 16%),
+    radial-gradient(#E8DAC2 15%, transparent 16%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F3E5AB 0%, #C6A15B 50%, #B38734 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-shimmer-border {
+  border-image: linear-gradient(to right, #C6A15B, #F6F0E5, #C6A15B) 1;
+}
+
+/* Wax seal shadow and 3D feel */
+.wax-seal-shadow {
+  box-shadow: 
+    0 10px 25px -5px rgba(0, 0, 0, 0.5),
+    inset 0 2px 4px rgba(255, 255, 255, 0.4),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Smooth envelope flap 3D perspective */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Leaflet map fix inside containers */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+}

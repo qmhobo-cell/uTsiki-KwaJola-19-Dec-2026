@@ -1,0 +1,6 @@
+{
+  "name": "K&S — uTsiki kwaJola Invitation",
+  "description": "Official interactive digital invitation for the Mhobo family celebration, uTsiki kwaJola, on 19 December 2026 in Glen Adelaide, Cacadu, Eastern Cape.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
